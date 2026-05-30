@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers
+    </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Linkedin signup</h1>
+        <hr>
+        <p>Email <br><input class="email" type="email" 
+            placeholder="Enter your email"></p>
+        <p class="Agree "> <input type="checkbox"> By clicking Agree & join, you agree to the
+            Privacy Policy.
+        </p>
+        <div class="btn-container">
+            <button class="primary-btn"><a href="https://www.linkedin.com/feed" style="color: white;
+             text-decoration: none;">Agree & Join</a></button>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="avengers-logo-container">
+            <img src="avengers_logo.jpg"
+            alt="Avengers Logo" width="60" height="60" class="avengers-logo">
+        </div>
+        <p class="tweet">What's happening?</p>
+        <button class="tweet-btn">Tweet</button>
+       
+    </div>
+</body>
+</html>
+<style>
+    .email {
+        border: 2px solid rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        font-size: 16px;
+        width: 300px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    p {
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        color:rgba(0, 0, 0, 0.7);
+    }
+    .primary-btn{
+        background-color: #0b68da;
+        color: white;
+        border: none;
+        width: 300px;
+        height:40px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 20px;
+        transition:all 0.6s ease;
+    }
+    .primary-btn:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .primary-btn:active {
+      height: 50px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      border-radius: 25px;
+    }
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .container {
+        max-width: 400px;
+        margin-left:20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .container-1 {
+        display:flex;
+        margin-left:20px;
+        width: 400px;
+        margin-top:20px;
+        height:60px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .avengers-logo-container {
+        display:flex;
+        align-items: center;
+        
+    }
+    .avengers-logo {
+        border-radius: 50%;
+    }
+
+    .tweet {
+        display:inline-block;
+        margin-left: 20px;
+        font-size: 20px;
+        color:rgba(0, 0, 0, 0.5);
+        align-self: center;
+    }
+    .tweet-btn {
+        background-color: #0985d2;
+        color: white;
+        border: none;
+        width: 80px;
+        height:30px;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 15px;
+        transition:all 0.6s ease;
+        align-self: center;
+        margin-left: auto;
+    }
+    .tweet-btn:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       height: 40px;
+       width: 100px;
+       border-radius: 20px;
+        
+        
+    }
+
+</style>
