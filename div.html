@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign-up form</h1>
+        <hr>
+        <div class="name-inputs">
+            <input type="text" class="name1" placeholder="First Name">
+            <input type="text" class="name2" placeholder="Last Name">
+        </div>
+        <input type="email" class="email" placeholder="Email">
+        <button class="sign_up">Sign Up</button>
+    </div>
+    <div class="container-1">
+        <h1>Uber request-a-ride form</h1>
+        <hr>
+        <input type="text" class="pickup-location" placeholder="Enter pickup location">
+        <input type="text" class="destination" placeholder="Enter destination">
+        <button class="request_ride">Request Ride</button>
+        <button class="schedule_ride">Schedule for later</button>
+    </div>
+    
+
+
+</body>
+</html>
+<style>
+    h1{
+        font-family: Arial, sans-serif;
+        color:rgba(0, 0, 0, 1);
+        vertical-align:top;
+    }
+    .email {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        font-size: 16px;
+        width: 280px;
+        margin-top: 5px;
+
+        border-radius: 5px;
+    }
+    
+    .name1{
+        margin-left:0px;
+        width: 125px;
+        display: inline-block;
+    }
+    .name2{
+        margin-left:2px;
+        width: 125px;
+        display: inline-block;
+    }
+    .container, .container-1 {
+        border: 2px solid rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        width:300px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    input {
+        display:inline-block;
+        margin: 10px 0;
+        padding: 10px;
+        width: 300px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+    }
+    .sign_up {
+        background-color: #0c4de3;
+        color: white;
+        border: none;
+        width: 300px;
+        font-weight: bold;
+        height:40px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .request_ride {
+        background-color: #010306;
+        color: white;
+        border: none;
+        width: 140px;
+        height:40px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 10px;
+       
+    }
+    .schedule_ride {
+    
+        color: rgb(15, 1, 1);
+        border: none;
+        width: 140px;
+        height:40px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .pickup-location, .destination {
+        margin-top: 10px;
+        width:280px;
+    }
+    button:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+</style>
